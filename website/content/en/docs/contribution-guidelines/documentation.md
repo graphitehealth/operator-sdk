@@ -48,6 +48,6 @@ Please consider running this locally before creating a PR to save CI resources.
 
 [hugo]:https://gohugo.io/
 [docsy-install]:https://www.docsy.dev/docs/get-started/other-options/#prerequisites-and-installation
-[website-md]:https://github.com/operator-framework/operator-sdk/tree/master/website/content/en/docs
-[changelog-template]:https://github.com/operator-framework/operator-sdk/blob/master/changelog/fragments/00-template.yaml
+[website-md]:https://github.com/graphitehealth/operator-sdk/tree/master/website/content/en/docs
+[changelog-template]:https://github.com/graphitehealth/operator-sdk/blob/master/changelog/fragments/00-template.yaml
 [godocs]:https://blog.golang.org/godoc

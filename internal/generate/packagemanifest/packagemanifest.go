@@ -26,7 +26,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"sigs.k8s.io/yaml"
 
-	genutil "github.com/operator-framework/operator-sdk/internal/generate/internal"
+	genutil "github.com/graphitehealth/operator-sdk/internal/generate/internal"
 )
 
 const (

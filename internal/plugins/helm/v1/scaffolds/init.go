@@ -24,10 +24,10 @@ import (
 	"sigs.k8s.io/kubebuilder/v4/pkg/machinery"
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugins"
 
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/chartutil"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/rbac"
-	"github.com/operator-framework/operator-sdk/internal/version"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/chartutil"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/rbac"
+	"github.com/graphitehealth/operator-sdk/internal/version"
 )
 
 const imageName = "controller:latest"

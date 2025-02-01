@@ -21,7 +21,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	ver "github.com/operator-framework/operator-sdk/internal/version"
+	ver "github.com/graphitehealth/operator-sdk/internal/version"
 )
 
 var _ = Describe("printVersion", func() {

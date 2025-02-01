@@ -17,7 +17,7 @@ package bundle
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/bundle/validate"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/bundle/validate"
 )
 
 func NewCmd() *cobra.Command {

@@ -23,8 +23,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
 	"github.com/operator-framework/api/pkg/apis/scorecard/v1alpha3"
-	"github.com/operator-framework/operator-sdk/internal/testutils"
 )
 
 // ScorecardSpec runs a set of scorecard tests common to all operator types.

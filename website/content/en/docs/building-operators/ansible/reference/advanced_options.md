@@ -290,6 +290,6 @@ You should not use all three methods to specify a single reconcile period. If al
 
 
 [ansible-vault-doc]: https://docs.ansible.com/ansible/latest/user_guide/vault.html
-[Zap-Logger]: https://github.com/operator-framework/operator-sdk/blob/master/website/content/en/docs/building-operators/golang/references/logging.md#default-zap-logger
+[Zap-Logger]: https://github.com/graphitehealth/operator-sdk/blob/master/website/content/en/docs/building-operators/golang/references/logging.md#default-zap-logger
 [verbosity-annotations]: https://sdk.operatorframework.io/docs/building-operators/ansible/reference/advanced_options/#ansible-verbosity
 

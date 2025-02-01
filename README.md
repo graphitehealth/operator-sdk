@@ -10,7 +10,7 @@
 >
 > For more information and guidance see the discussion https://github.com/kubernetes-sigs/kubebuilder/discussions/3907
 
-[![Build Status](https://github.com/operator-framework/operator-sdk/workflows/deploy/badge.svg)](https://github.com/operator-framework/operator-sdk/actions)
+[![Build Status](https://github.com/graphitehealth/operator-sdk/workflows/deploy/badge.svg)](https://github.com/graphitehealth/operator-sdk/actions)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Documentation

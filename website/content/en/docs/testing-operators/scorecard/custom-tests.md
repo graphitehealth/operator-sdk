@@ -307,14 +307,14 @@ connection to invoke the Kube API.
 <!-- TODO: this file shouldn't refer to the top-level operator-sdk repo as a reference, but a sample (in testdata?) -->
 
 [client_go]: https://github.com/kubernetes/client-go
-[olm_tests]: https://github.com/operator-framework/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/internal/scorecard/tests/olm.go
-[basic_tests]: https://github.com/operator-framework/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/internal/scorecard/tests/basic.go
-[config_yaml]: https://github.com/operator-framework/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/internal/scorecard/testdata/bundle/tests/scorecard/config.yaml
-[scorecard_main_func]: https://github.com/operator-framework/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/images/scorecard-test/main.go
-[custom_scorecard_repo]:https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/memcached-operator 
+[olm_tests]: https://github.com/graphitehealth/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/internal/scorecard/tests/olm.go
+[basic_tests]: https://github.com/graphitehealth/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/internal/scorecard/tests/basic.go
+[config_yaml]: https://github.com/graphitehealth/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/internal/scorecard/testdata/bundle/tests/scorecard/config.yaml
+[scorecard_main_func]: https://github.com/graphitehealth/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/images/scorecard-test/main.go
+[custom_scorecard_repo]:https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/memcached-operator 
 [user_doc]: /docs/testing-operators/scorecard/
-[scorecard_binary]: https://github.com/operator-framework/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/images/custom-scorecard-tests/main.go
-[sample_makefile]: https://github.com/operator-framework/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/Makefile
+[scorecard_binary]: https://github.com/graphitehealth/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/images/custom-scorecard-tests/main.go
+[sample_makefile]: https://github.com/graphitehealth/operator-sdk/blob/09c3aa14625965af9f22f513cd5c891471dbded2/Makefile
 [kustomize-patchJson6902]: https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/patchesjson6902/
 [testresults]:https://github.com/operator-framework/api/blob/333d064/pkg/apis/scorecard/v1alpha3/test_types.go#L35
 [storage]:https://pkg.go.dev/github.com/operator-framework/api@v0.10.4/pkg/apis/scorecard/v1alpha3#Storage

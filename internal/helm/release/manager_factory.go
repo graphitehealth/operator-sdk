@@ -24,8 +24,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	crmanager "sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/operator-framework/operator-sdk/internal/helm/client"
-	"github.com/operator-framework/operator-sdk/internal/helm/internal/types"
+	"github.com/graphitehealth/operator-sdk/internal/helm/client"
+	"github.com/graphitehealth/operator-sdk/internal/helm/internal/types"
 )
 
 // ManagerFactory creates Managers that are specific to custom resources. It is

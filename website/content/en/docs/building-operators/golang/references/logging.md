@@ -239,7 +239,7 @@ If you do not want to use `logr` as your logging tool, you can remove `logr`-spe
 [godoc_logr]:https://pkg.go.dev/github.com/go-logr/logr
 [repo_zapr]:https://pkg.go.dev/github.com/go-logr/zapr
 [godoc_logr_logger]:https://pkg.go.dev/github.com/go-logr/logr#Logger
-[code_memcached_controller]: https://github.com/operator-framework/operator-sdk/blob/v1.2.0/testdata/go/memcached-operator/controllers/memcached_controller.go
+[code_memcached_controller]: https://github.com/graphitehealth/operator-sdk/blob/v1.2.0/testdata/go/memcached-operator/controllers/memcached_controller.go
 [logfmt_repo]:https://github.com/jsternberg/zap-logfmt
 [controller_runtime_zap]:https://github.com/kubernetes-sigs/controller-runtime/tree/master/pkg/log/zap
 [logging_godocs]: https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/log/zap#Options.BindFlags

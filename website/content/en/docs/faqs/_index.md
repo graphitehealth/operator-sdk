@@ -275,7 +275,7 @@ not possible, users can build and push their own versions of any of the
 images provided by the Operator-SDK. 
 
 **Operator-SDK**
-docker buildx build  -t quay.io/operator-framework/operator-sdk:dev -f ./images/operator-sdk/Dockerfile --load .
+docker buildx build  -t quay.io/graphitehealth/operator-sdk:dev -f ./images/operator-sdk/Dockerfile --load .
 
 **Helm-Operator**
 docker buildx build  -t quay.io/operator-framework/helm-operator:dev -f ./images/helm-operator/Dockerfile --load .
@@ -346,7 +346,7 @@ where the command `operator-sdk generate kustomize manifests` is not respecting 
 made on this manifest. 
 
 [cgo-docs]: https://pkg.go.dev/cmd/cgo
-[open-issue]: https://github.com/operator-framework/operator-sdk/issues/new/choose
+[open-issue]: https://github.com/graphitehealth/operator-sdk/issues/new/choose
 
 ## 'operator-sdk run bundle' command fails and the registry pod has an error of 'mkdir: can't create directory '/database': Permission denied'
 

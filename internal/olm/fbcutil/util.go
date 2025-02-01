@@ -29,7 +29,7 @@ import (
 	declarativeconfig "github.com/operator-framework/operator-registry/alpha/declcfg"
 	"github.com/operator-framework/operator-registry/pkg/containertools"
 	"github.com/operator-framework/operator-registry/pkg/image/containerdregistry"
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
 	log "github.com/sirupsen/logrus"
 )
 

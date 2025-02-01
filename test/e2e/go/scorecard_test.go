@@ -17,7 +17,7 @@ package e2e_go_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 
-	"github.com/operator-framework/operator-sdk/test/common"
+	"github.com/graphitehealth/operator-sdk/test/common"
 )
 
 var _ = Describe("scorecard", common.ScorecardSpec(&tc, "go"))

@@ -30,5 +30,5 @@ the #operator-sdk-dev channel on Kubernetes slack, or by attending the Operator 
 [gh-fork-pr]:https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 [gh-pr]:https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 [of-contributor-ladder]:https://github.com/operator-framework/community/blob/master/contributor-ladder.md
-[operator-sdk-repo]:https://github.com/operator-framework/operator-sdk
+[operator-sdk-repo]:https://github.com/graphitehealth/operator-sdk
 [triage-meeting]:https://github.com/operator-framework/community#operator-sdk-issue-triage

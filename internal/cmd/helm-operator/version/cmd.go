@@ -20,7 +20,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	ver "github.com/operator-framework/operator-sdk/internal/version"
+	ver "github.com/graphitehealth/operator-sdk/internal/version"
 )
 
 func NewCmd() *cobra.Command {

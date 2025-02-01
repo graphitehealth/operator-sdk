@@ -355,7 +355,7 @@ can also be used with cluster-wide scope.
 
 <!--
 todo(camilamacedo86): Create an Ansible operator scope document.
-https://github.com/operator-framework/operator-sdk/issues/3447
+https://github.com/graphitehealth/operator-sdk/issues/3447
 -->
 
 OLM will manage creation of most if not all resources required to run your operator, using a bit of setup from other operator-sdk commands. Check out the [OLM integration guide][tutorial-bundle].
@@ -368,7 +368,7 @@ OLM will manage creation of most if not all resources required to run your opera
 [image-reg-config]:/docs/olm-integration/cli-overview#private-bundle-and-catalog-image-registries
 [install-guide]:/docs/building-operators/ansible/installation
 [layout-doc]:/docs/building-operators/ansible/reference/scaffolding
-[legacy-quickstart-doc]:https://github.com/operator-framework/operator-sdk/blob/v0.19.x/website/content/en/docs/ansible/quickstart.md
+[legacy-quickstart-doc]:https://github.com/graphitehealth/operator-sdk/blob/v0.19.x/website/content/en/docs/ansible/quickstart.md
 [kustomize-docs]:https://kustomize.io/
 [migration-guide]:/docs/building-operators/ansible/migration
 [tutorial-bundle]:/docs/olm-integration/tutorial-bundle

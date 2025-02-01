@@ -26,8 +26,8 @@ import (
 	crdmarkers "sigs.k8s.io/controller-tools/pkg/crd/markers"
 	"sigs.k8s.io/controller-tools/pkg/markers"
 
-	sdkmarkers "github.com/operator-framework/operator-sdk/internal/markers"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	sdkmarkers "github.com/graphitehealth/operator-sdk/internal/markers"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 const (

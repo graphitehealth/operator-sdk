@@ -54,12 +54,12 @@ To implement application-specific tests, the SDK's test harness, [scorecard][sco
 [scorecard]: /docs/testing-operators/scorecard/
 [gomega]: https://onsi.github.io/gomega/
 [kuttl]: https://kuttl.dev/
-[sample]: https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/memcached-operator
+[sample]: https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/memcached-operator
 [molecule]: https://molecule.readthedocs.io/
 [molecule-tests]: /docs/building-operators/ansible/testing-guide
 [helm-chart-tests]: https://helm.sh/docs/topics/chart_tests/
-[go-legacy-shell]: https://github.com/operator-framework/operator-sdk/blob/v1.0.0/hack/tests/e2e-go.sh
-[helm-legacy-shell]: https://github.com/operator-framework/operator-sdk/blob/v1.0.0/hack/tests/e2e-helm.sh
-[ansible-legacy-shell]: https://github.com/operator-framework/operator-sdk/blob/v1.0.0/hack/tests/e2e-ansible.sh
+[go-legacy-shell]: https://github.com/graphitehealth/operator-sdk/blob/v1.0.0/hack/tests/e2e-go.sh
+[helm-legacy-shell]: https://github.com/graphitehealth/operator-sdk/blob/v1.0.0/hack/tests/e2e-helm.sh
+[ansible-legacy-shell]: https://github.com/graphitehealth/operator-sdk/blob/v1.0.0/hack/tests/e2e-ansible.sh
 [chainsaw]: https://kyverno.github.io/chainsaw/latest/
 [from-kuttl-to-chainsaw]: https://kyverno.github.io/chainsaw/latest/guides/kuttl-migration

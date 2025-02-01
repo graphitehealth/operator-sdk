@@ -85,7 +85,7 @@ If `--helm-chart-version` is not set, the SDK will fetch the latest available ve
 
 <!--
 todo(camilamacedo86): Create an Ansible operator scope document.
-https://github.com/operator-framework/operator-sdk/issues/3447
+https://github.com/graphitehealth/operator-sdk/issues/3447
 -->
 
 
@@ -357,7 +357,7 @@ Next, check out the following:
 1. The [advanced features][advanced-features] doc for more use cases and under-the-hood details.
 
 
-[legacy-quickstart-doc]:https://github.com/operator-framework/operator-sdk/tree/v0.19.x/website/content/en/docs/helm/quickstart.md
+[legacy-quickstart-doc]:https://github.com/graphitehealth/operator-sdk/tree/v0.19.x/website/content/en/docs/helm/quickstart.md
 [migration-guide]:/docs/building-operators/helm/migration
 [install-guide]:/docs/building-operators/helm/installation
 [image-reg-config]:/docs/olm-integration/cli-overview#private-bundle-and-catalog-image-registries

@@ -138,7 +138,7 @@ scorecard v1alpha2 Test Result output.  This allows scorecard to parse
 the custom test log output and aggregate the results like any other
 scorecard test.
 
-The scorecard expected output would be in JSON, and would match the following definition:  https://github.com/operator-framework/operator-sdk/blob/master/pkg/apis/scorecard/v1alpha2/types.go#L36
+The scorecard expected output would be in JSON, and would match the following definition:  https://github.com/graphitehealth/operator-sdk/blob/master/pkg/apis/scorecard/v1alpha2/types.go#L36
 
 The scorecard v1alpha2 Test Result output contains information such as
 pass or fail status and suggestions/errors produced by the test that
@@ -309,5 +309,5 @@ The proposed changes to the scorecard solve the immediate need to support custom
 The proposed design focuses heavily on separation of concerns, turning scorecard into a test runner essentially, moving test implementations into their own concern (eg. container images).
 
 ## Reference Material
-([Original Proposal](https://github.com/operator-framework/operator-sdk/pull/2624))
+([Original Proposal](https://github.com/graphitehealth/operator-sdk/pull/2624))
 ([kuttl information](https://github.com/kudobuilder/kuttl))

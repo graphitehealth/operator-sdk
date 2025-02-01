@@ -28,7 +28,7 @@ The following tools and permissions are needed to conduct a release of the opera
 ### Permissions
 
 - Must be a [Netlify admin][doc-owners]
-- Must be an admin on the [operator-sdk repo](https://github.com/operator-framework/operator-sdk/settings/access)
+- Must be an admin on the [operator-sdk repo](https://github.com/graphitehealth/operator-sdk/settings/access)
 
 ### Setting Up Tools for MacOS Users
 
@@ -304,7 +304,7 @@ The `quay.io/operator-framework/scorecard-test-kuttl` image is released separate
 contains the [`kudobuilder/kuttl`](https://hub.docker.com/r/kudobuilder/kuttl/tags) image, which is subject to breaking changes.
 
 Release tags of this image are of the form: `scorecard-kuttl/vX.Y.Z`, where `X.Y.Z` is _not_ the current operator-sdk version.
-For the latest version, query the [operator-sdk repo tags](https://github.com/operator-framework/operator-sdk/tags) for `scorecard-kuttl/v`.
+For the latest version, query the [operator-sdk repo tags](https://github.com/graphitehealth/operator-sdk/tags) for `scorecard-kuttl/v`.
 
 The only step required is to create and push a tag.
 This example uses version `v2.0.0`, the first independent release version of this image:
@@ -315,7 +315,7 @@ make tag
 git push upstream refs/tags/$RELEASE_VERSION
 ```
 
-The [`deploy/image-scorecard-test-kuttl`](https://github.com/operator-framework/operator-sdk/actions/workflows/deploy.yml)
+The [`deploy/image-scorecard-test-kuttl`](https://github.com/graphitehealth/operator-sdk/actions/workflows/deploy.yml)
 Action workflow will build and push this image.
 
 ## Helpful Tips and Information
@@ -377,11 +377,11 @@ The following should be considered when doing parallel patch releases:
 - Do not unlock v.* branches while other releases are in progress. Instead, have an admin do the merges.
 - Release announcements should be consolidated.
 
-[doc-owners]: https://github.com/operator-framework/operator-sdk/blob/master/OWNERS
-[release-page]:https://github.com/operator-framework/operator-sdk/releases
+[doc-owners]: https://github.com/graphitehealth/operator-sdk/blob/master/OWNERS
+[release-page]:https://github.com/graphitehealth/operator-sdk/releases
 [backports]:/docs/upgrading-sdk-version/backport-policy
 [of-ggroup]:https://groups.google.com/g/operator-framework
-[gh-milestones]:https://github.com/operator-framework/operator-sdk/milestones
-[Makefile]:https://github.com/operator-framework/operator-sdk/blob/master/Makefile
-[olm_version]:https://github.com/operator-framework/operator-sdk/blob/6002c70fe770cdaba9ba99da72685e0e7b6b69e8/Makefile#L45
-[overview]: https://github.com/operator-framework/operator-sdk/blob/master/website/content/en/docs/overview/_index.md#olm-version-compatibility
+[gh-milestones]:https://github.com/graphitehealth/operator-sdk/milestones
+[Makefile]:https://github.com/graphitehealth/operator-sdk/blob/master/Makefile
+[olm_version]:https://github.com/graphitehealth/operator-sdk/blob/6002c70fe770cdaba9ba99da72685e0e7b6b69e8/Makefile#L45
+[overview]: https://github.com/graphitehealth/operator-sdk/blob/master/website/content/en/docs/overview/_index.md#olm-version-compatibility

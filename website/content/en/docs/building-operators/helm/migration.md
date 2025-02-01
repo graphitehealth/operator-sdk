@@ -117,7 +117,7 @@ New projects are configured to watch all namespaces by default, so they need a `
 
 <!--
 todo(camilamacedo86): Create an Ansible operator scope document.
-https://github.com/operator-framework/operator-sdk/issues/3447
+https://github.com/graphitehealth/operator-sdk/issues/3447
 -->
 
 The following rules were used in earlier versions of helm-operator to automatically create and manage services and servicemonitors for metrics collection. If your operator's charts don't require these rules, they can safely be left out of the new `config/rbac/role.yaml` file:

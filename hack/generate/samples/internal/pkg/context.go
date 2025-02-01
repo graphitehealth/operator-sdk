@@ -15,7 +15,7 @@
 package pkg
 
 import (
-	"github.com/operator-framework/operator-sdk/internal/testutils"
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
 )
 
 // SampleContext represents the Context used to generate the samples

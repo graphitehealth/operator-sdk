@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
 )
 
 var _ = Describe("Basic and OLM tests", func() {

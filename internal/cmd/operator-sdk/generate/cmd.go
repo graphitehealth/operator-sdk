@@ -17,9 +17,9 @@ package generate
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/generate/bundle"
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/generate/kustomize"
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/generate/packagemanifests"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/generate/bundle"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/generate/kustomize"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/generate/packagemanifests"
 )
 
 // NewCmd returns the 'generate' command configured for the new project layout.

@@ -22,7 +22,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/operator-framework/operator-sdk/internal/testutils"
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
 )
 
 // TestE2EGo ensures the Go projects built with the SDK tool by using its binary.

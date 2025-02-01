@@ -580,7 +580,7 @@ func labelsForApp(name string) map[string]string {
 }
 ```
 
-[memcached-testdata]:https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/memcached-operator
+[memcached-testdata]:https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/memcached-operator
 [repo-controller-runtime]:https://github.com/kubernetes-sigs/controller-runtime
 [doc-client]:https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/client#Client
 [doc-split-client]:https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/client#DelegatingClient
@@ -588,6 +588,6 @@ func labelsForApp(name string) map[string]string {
 [code-scheme-default]:https://github.com/kubernetes-sigs/controller-runtime/blob/master/pkg/client/client.go#L51
 [doc-k8s-core]:https://pkg.go.dev/k8s.io/api/core/v1
 [doc-reconcile-reconciler]:https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/reconcile#Reconciler
-[doc-osdk-handle]:https://github.com/operator-framework/operator-sdk/blob/master/design/milestone-0.0.2/action-api.md#handler
+[doc-osdk-handle]:https://github.com/graphitehealth/operator-sdk/blob/master/design/milestone-0.0.2/action-api.md#handler
 [doc-types-nsname]:https://pkg.go.dev/k8s.io/apimachinery/pkg/types#NamespacedName
 [cr-status-subresource]:https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/#status-subresource

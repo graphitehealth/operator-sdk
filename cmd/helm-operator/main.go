@@ -20,8 +20,8 @@ import (
 	"github.com/spf13/cobra"
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/operator-framework/operator-sdk/internal/cmd/helm-operator/run"
-	"github.com/operator-framework/operator-sdk/internal/cmd/helm-operator/version"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/helm-operator/run"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/helm-operator/version"
 )
 
 func main() {

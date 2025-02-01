@@ -74,7 +74,7 @@ Now, let's look at the files and directories specific to Helm-based operators.
 [kb-whats in-a-basic-project?]: https://book.kubebuilder.io/cronjob-tutorial/basic-project.html
 [olm]: https://github.com/operator-framework/operator-lifecycle-manager
 [Kustomize]: https://github.com/kubernetes-sigs/kustomize
-[kustomize-base]: https://github.com/operator-framework/operator-sdk/blob/v1.4.2/testdata/go/v3/memcached-operator/config/default/kustomization.yaml
+[kustomize-base]: https://github.com/graphitehealth/operator-sdk/blob/v1.4.2/testdata/go/v3/memcached-operator/config/default/kustomization.yaml
 [kb-metrics]: https://book.kubebuilder.io/reference/metrics.html
 [k8s-rbac]: https://kubernetes.io/docs/reference/access-authn-authz/rbac/
 [k8s-cr-doc]: https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#custom-resources

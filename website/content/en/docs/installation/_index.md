@@ -36,7 +36,7 @@ export OS=$(uname | awk '{print tolower($0)}')
 Download the binary for your platform:
 
 ```sh
-export OPERATOR_SDK_DL_URL=https://github.com/operator-framework/operator-sdk/releases/download/v1.39.1
+export OPERATOR_SDK_DL_URL=https://github.com/graphitehealth/operator-sdk/releases/download/v1.39.1
 curl -LO ${OPERATOR_SDK_DL_URL}/operator-sdk_${OS}_${ARCH}
 ```
 
@@ -92,7 +92,7 @@ chmod +x operator-sdk_${OS}_${ARCH} && sudo mv operator-sdk_${OS}_${ARCH} /usr/l
   - Ensure that your `GOPROXY` is set to `"https://proxy.golang.org|direct"`
 
 ```sh
-git clone https://github.com/operator-framework/operator-sdk
+git clone https://github.com/graphitehealth/operator-sdk
 cd operator-sdk
 git checkout master
 make install

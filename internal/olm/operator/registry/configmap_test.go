@@ -20,8 +20,8 @@ import (
 	. "github.com/onsi/gomega"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
 	apimanifests "github.com/operator-framework/api/pkg/manifests"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
 )
 
 var _ = Describe("Configmap", func() {

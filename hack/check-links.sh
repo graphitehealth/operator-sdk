@@ -17,4 +17,4 @@ docker run --rm -v sdk-html:/target klakegg/html-proofer:3.19.2 /target \
   --allow_hash_href \
   --typhoeus-config='{"ssl_verifypeer":false,"followlocation":true,"connecttimeout":600,"timeout":600}' \
   --hydra-config='{"max_concurrency":5}' \
-  --url-ignore "/github.com\/operator-framework\/operator-sdk\/edit\/master\//,https://docs.github.com/en/get-started/quickstart/fork-a-repo,https://github.com/operator-framework/operator-sdk/settings/access"
+  --url-ignore "/github.com\/operator-framework\/operator-sdk\/edit\/master\//,https://docs.github.com/en/get-started/quickstart/fork-a-repo,https://github.com/graphitehealth/operator-sdk/settings/access"

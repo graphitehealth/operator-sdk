@@ -23,12 +23,12 @@ status: implementable
 
 ## Summary
 
-The Operator SDK has a repo with [sample projects](https://github.com/operator-framework/operator-sdk-samples
+The Operator SDK has a repo with [sample projects](https://github.com/graphitehealth/operator-sdk-samples
 ). This proposal describes quality improvements in for the sample projects.
 
 ## Motivation
 
-- Address issues raised in the repository such as ; [Provide docker images for the samples](https://github.com/operator-framework/operator-sdk-samples/issues/88), [Add coveralls](https://github.com/operator-framework/operator-sdk-samples/issues/89), [Add unit test to cover the project](https://github.com/operator-framework/operator-sdk-samples/issues/87), [Add CI tests](https://github.com/operator-framework/operator-sdk-samples/issues/85).
+- Address issues raised in the repository such as ; [Provide docker images for the samples](https://github.com/graphitehealth/operator-sdk-samples/issues/88), [Add coveralls](https://github.com/graphitehealth/operator-sdk-samples/issues/89), [Add unit test to cover the project](https://github.com/graphitehealth/operator-sdk-samples/issues/87), [Add CI tests](https://github.com/graphitehealth/operator-sdk-samples/issues/85).
 - Make easier the process to review changes made for the projects
 - Help users know how they can achieve common good practices
 
@@ -85,7 +85,7 @@ The Operator SDK has a repo with [sample projects](https://github.com/operator-f
 - As an Ansible operator developer, I would like to know how to cover the projects with unit tests using molecule
 
 **Acceptance Criteria** 
-- The Ansible project should be covered by tests using [molecule](https://github.com/operator-framework/operator-sdk-samples/tree/master/ansible/memcached-operator/molecule) which by default is scaffold
+- The Ansible project should be covered by tests using [molecule](https://github.com/graphitehealth/operator-sdk-samples/tree/master/ansible/memcached-operator/molecule) which by default is scaffold
 - The tests should all pass.
 - A section with a short info over how to tests and the links for its documents in the README of the project
 - The project should have a makefile target to call the tests
@@ -95,7 +95,7 @@ The Operator SDK has a repo with [sample projects](https://github.com/operator-f
 - As an Helm operator developer, I would like to how to cover the projects with tests
 
 **Acceptance Criteria** 
-- The Helm project should have test shell scripts as seen [here](https://github.com/operator-framework/operator-sdk/blob/master/hack/tests/e2e-helm.sh).- The tests should all pass.
+- The Helm project should have test shell scripts as seen [here](https://github.com/graphitehealth/operator-sdk/blob/master/hack/tests/e2e-helm.sh).- The tests should all pass.
 - A section with a short info over how to tests and the links for its documents in the README of the project
 - The project should have a makefile target to call the tests
 
@@ -105,7 +105,7 @@ The Operator SDK has a repo with [sample projects](https://github.com/operator-f
 - As an Ansible operator developer, I'd like to how to cover the projects with integration tests using molecule
 
 **Acceptance Criteria** 
-- The Ansible project should have a few integration tests using [molecule](https://github.com/operator-framework/operator-sdk-samples/tree/master/ansible/memcached-operator/molecule) which by default is scaffold
+- The Ansible project should have a few integration tests using [molecule](https://github.com/graphitehealth/operator-sdk-samples/tree/master/ansible/memcached-operator/molecule) which by default is scaffold
 - The tests should all pass.
 - A section with a short info over how to tests and the links for its documents in the README of the project
 - The project should have a makefile target to call the tests
@@ -131,7 +131,7 @@ The Operator SDK has a repo with [sample projects](https://github.com/operator-f
 
 ### Risks and Mitigations
 
-[Coveralls](https://coveralls.io/) may not work well with [molecule](https://github.com/operator-framework/operator-sdk-samples/tree/master/ansible/memcached-operator/molecule), if this is the case we can just not integrate with it or we can find a similar tool.
+[Coveralls](https://coveralls.io/) may not work well with [molecule](https://github.com/graphitehealth/operator-sdk-samples/tree/master/ansible/memcached-operator/molecule), if this is the case we can just not integrate with it or we can find a similar tool.
 
 [operator-sdk-doc]:  https://sdk.operatorframework.io/
 [e2e-docs]: https://sdk.operatorframework.io/docs/golang/legacy/e2e-tests/

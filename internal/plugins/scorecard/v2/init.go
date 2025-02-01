@@ -24,8 +24,8 @@ import (
 	"sigs.k8s.io/kubebuilder/v4/pkg/machinery"
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugin"
 
-	"github.com/operator-framework/operator-sdk/internal/scorecard"
-	"github.com/operator-framework/operator-sdk/internal/version"
+	"github.com/graphitehealth/operator-sdk/internal/scorecard"
+	"github.com/graphitehealth/operator-sdk/internal/version"
 )
 
 var (

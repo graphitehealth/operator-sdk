@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/util/retry"
 
-	olmclient "github.com/operator-framework/operator-sdk/internal/olm/client"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator/registry/configmap"
+	olmclient "github.com/graphitehealth/operator-sdk/internal/olm/client"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator/registry/configmap"
 )
 
 type ConfigMapCatalogCreator struct {

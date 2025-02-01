@@ -9,10 +9,10 @@ import (
 	"github.com/blang/semver/v4"
 	log "github.com/sirupsen/logrus"
 
-	util "github.com/operator-framework/operator-sdk/release/changelog/internal"
+	util "github.com/graphitehealth/operator-sdk/release/changelog/internal"
 )
 
-const repo = "github.com/operator-framework/operator-sdk"
+const repo = "github.com/graphitehealth/operator-sdk"
 
 func main() {
 	var (

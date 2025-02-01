@@ -4,7 +4,7 @@ package packagemanifestfakes
 import (
 	"sync"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/packagemanifest"
+	"github.com/graphitehealth/operator-sdk/internal/generate/packagemanifest"
 )
 
 type FakeGenerator struct {

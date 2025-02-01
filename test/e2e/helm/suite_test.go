@@ -24,7 +24,7 @@ import (
 	. "github.com/onsi/gomega"
 	kbutil "sigs.k8s.io/kubebuilder/v4/pkg/plugin/util"
 
-	"github.com/operator-framework/operator-sdk/internal/testutils"
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
 )
 
 // TestE2EHelm ensures the Helm projects built with the SDK tool by using its binary.

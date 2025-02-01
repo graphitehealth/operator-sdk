@@ -259,9 +259,9 @@ and subsequently [`func doAnsibleScaffold()`][doansible] or [`func doHelmScaffol
 ```
 [addapidoc]: https://v0-19-x.sdk.operatorframework.io/docs/cli/operator-sdk_add_api/
 [sdkclidoc]: https://v0-19-x.sdk.operatorframework.io/docs/cli/
-[onlygorestriction]:https://github.com/operator-framework/operator-sdk/blob/master/cmd/operator-sdk/add/api.go#L95
-[doansible]:https://github.com/operator-framework/operator-sdk/blob/master/cmd/operator-sdk/new/cmd.go#L228
-[dohelm]:https://github.com/operator-framework/operator-sdk/blob/master/cmd/operator-sdk/new/cmd.go#L320
-[addapifunc]:https://github.com/operator-framework/operator-sdk/blob/master/cmd/operator-sdk/add/api.go#L91
+[onlygorestriction]:https://github.com/graphitehealth/operator-sdk/blob/master/cmd/operator-sdk/add/api.go#L95
+[doansible]:https://github.com/graphitehealth/operator-sdk/blob/master/cmd/operator-sdk/new/cmd.go#L228
+[dohelm]:https://github.com/graphitehealth/operator-sdk/blob/master/cmd/operator-sdk/new/cmd.go#L320
+[addapifunc]:https://github.com/graphitehealth/operator-sdk/blob/master/cmd/operator-sdk/add/api.go#L91
 [ansiblepoc]:https://github.com/bharathi-tenneti/memcached-ansible-demo
 [helmpoc]:https://github.com/bharathi-tenneti/helm-operator-demo

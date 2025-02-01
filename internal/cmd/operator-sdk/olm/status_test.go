@@ -18,7 +18,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/operator-framework/operator-sdk/internal/olm/installer"
+	"github.com/graphitehealth/operator-sdk/internal/olm/installer"
 )
 
 var _ = Describe("Running an olm status command", func() {

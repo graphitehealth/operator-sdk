@@ -20,7 +20,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 
-	"github.com/operator-framework/operator-sdk/internal/validate"
+	"github.com/graphitehealth/operator-sdk/internal/validate"
 )
 
 var _ = Describe("Running a bundle validate command", func() {

@@ -25,10 +25,10 @@ import (
 	operatorsv1alpha1 "github.com/operator-framework/api/pkg/operators/v1alpha1"
 	"github.com/operator-framework/operator-registry/pkg/lib/bundle"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion/bases"
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
-	genutil "github.com/operator-framework/operator-sdk/internal/generate/internal"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion/bases"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
+	genutil "github.com/graphitehealth/operator-sdk/internal/generate/internal"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 const (

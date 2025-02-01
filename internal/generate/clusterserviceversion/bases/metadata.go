@@ -19,7 +19,7 @@ import (
 
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
 
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 // uiMetadata includes the list of CSV fields which would be asked

@@ -124,9 +124,9 @@ OLM uses Kubernetes APIs to learn about the set of operators that are available 
 * [GitHub][olm_github]
 * [Architecture][olm_arch]
 
-[osdk_github]: https://github.com/operator-framework/operator-sdk
-[osdk_user_guide]: https://github.com/operator-framework/operator-sdk/blob/master/doc/user-guide.md
-[osdk_cli]: https://github.com/operator-framework/operator-sdk/tree/master/doc/cli
+[osdk_github]: https://github.com/graphitehealth/operator-sdk
+[osdk_user_guide]: https://github.com/graphitehealth/operator-sdk/blob/master/doc/user-guide.md
+[osdk_cli]: https://github.com/graphitehealth/operator-sdk/tree/master/doc/cli
 
 
 [registry_github]: https://github.com/operator-framework/operator-registry

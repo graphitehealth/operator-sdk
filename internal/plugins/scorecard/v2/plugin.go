@@ -19,7 +19,7 @@ import (
 	cfgv3 "sigs.k8s.io/kubebuilder/v4/pkg/config/v3"
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugin"
 
-	"github.com/operator-framework/operator-sdk/internal/plugins"
+	"github.com/graphitehealth/operator-sdk/internal/plugins"
 )
 
 const pluginName = "scorecard" + plugins.DefaultNameQualifier

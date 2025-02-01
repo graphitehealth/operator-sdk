@@ -1,4 +1,4 @@
-module github.com/operator-framework/operator-sdk
+module github.com/graphitehealth/operator-sdk
 
 go 1.23.4
 

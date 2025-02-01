@@ -22,7 +22,7 @@ import (
 
 	apimanifests "github.com/operator-framework/api/pkg/manifests"
 
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
 )
 
 const (

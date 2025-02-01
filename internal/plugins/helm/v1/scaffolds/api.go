@@ -27,11 +27,11 @@ import (
 	"sigs.k8s.io/kubebuilder/v4/pkg/model/resource"
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugins"
 
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/chartutil"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/crd"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/rbac"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/samples"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/chartutil"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/crd"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/rbac"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds/internal/templates/config/samples"
 )
 
 var _ plugins.Scaffolder = &apiScaffolder{}

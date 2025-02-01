@@ -229,7 +229,7 @@ project, you need to re-apply them in `config/rbac/role.yaml`.
 
 <!--
 todo(camilamacedo86): Create an Ansible operator scope document.
-https://github.com/operator-framework/operator-sdk/issues/3447
+https://github.com/graphitehealth/operator-sdk/issues/3447
 -->
 
 New projects are configured to watch all namespaces by default, so they need a `ClusterRole` to have the necessary permissions. Ensure that `config/rbac/role.yaml` remains a `ClusterRole` if you want to retain the default behavior of the new project conventions.

@@ -213,8 +213,8 @@ None, this can continue using our current CI infrastructure.
 
 
 [operator-sdk-doc]:https://sdk.operatorframework.io/
-[sdk-changelog-generator]:https://github.com/operator-framework/operator-sdk/tree/v1.0.1/hack/generate/changelog
-[sdk-release-script]:https://github.com/operator-framework/operator-sdk/tree/v1.0.1/release.sh
+[sdk-changelog-generator]:https://github.com/graphitehealth/operator-sdk/tree/v1.0.1/hack/generate/changelog
+[sdk-release-script]:https://github.com/graphitehealth/operator-sdk/tree/v1.0.1/release.sh
 [sdk-release-doc]:https://v1-0-x.sdk.operatorframework.io/docs/contribution-guidelines/release/
 [goreleaser]:https://goreleaser.com/customization/
 [goreleaser-config]:https://goreleaser.com/customization/

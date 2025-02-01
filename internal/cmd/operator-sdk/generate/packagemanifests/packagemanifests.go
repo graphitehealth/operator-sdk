@@ -20,12 +20,12 @@ import (
 	"os"
 	"path/filepath"
 
-	metricsannotations "github.com/operator-framework/operator-sdk/internal/annotations/metrics"
-	genutil "github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/generate/internal"
-	gencsv "github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion"
-	"github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion/bases"
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
-	genpkg "github.com/operator-framework/operator-sdk/internal/generate/packagemanifest"
+	metricsannotations "github.com/graphitehealth/operator-sdk/internal/annotations/metrics"
+	genutil "github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/generate/internal"
+	gencsv "github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion"
+	"github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion/bases"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
+	genpkg "github.com/graphitehealth/operator-sdk/internal/generate/packagemanifest"
 )
 
 const (

@@ -49,7 +49,7 @@ Highlights:
 1. Implementation of this proposal will result in a website that hosts
    the documentation that currently exists in the `doc` directory of
    [the Operator SDK
-   project](https://github.com/operator-framework/operator-sdk/). 
+   project](https://github.com/graphitehealth/operator-sdk/). 
 1. A minimal landing page will be created.
 1. Docs will build automatically when code merges to master branch.
 

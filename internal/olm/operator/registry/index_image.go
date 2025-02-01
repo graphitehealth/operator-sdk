@@ -32,12 +32,12 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/client-go/util/retry"
 
+	fbcutil "github.com/graphitehealth/operator-sdk/internal/olm/fbcutil"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator/registry/fbcindex"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator/registry/index"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
 	declarativeconfig "github.com/operator-framework/operator-registry/alpha/declcfg"
-	fbcutil "github.com/operator-framework/operator-sdk/internal/olm/fbcutil"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator/registry/fbcindex"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator/registry/index"
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
 )
 
 // Internal CatalogSource annotations.

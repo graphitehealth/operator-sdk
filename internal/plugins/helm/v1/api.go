@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/chartutil"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/util"
 	"github.com/iancoleman/strcase"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/chartutil"
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds"
-	"github.com/operator-framework/operator-sdk/internal/plugins/util"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 	"helm.sh/helm/v3/pkg/chart"

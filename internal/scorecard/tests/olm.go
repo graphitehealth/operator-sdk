@@ -32,8 +32,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 const (

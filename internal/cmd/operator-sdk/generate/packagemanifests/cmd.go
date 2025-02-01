@@ -22,7 +22,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/packagemanifest"
+	"github.com/graphitehealth/operator-sdk/internal/generate/packagemanifest"
 )
 
 //nolint:maligned

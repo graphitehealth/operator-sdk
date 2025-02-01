@@ -19,7 +19,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	// Has the same name as a different import in memcached_types.go to test duplicate package names.
-	foo "github.com/operator-framework/operator-sdk/internal/generate/testdata/go/api/shared"
+	foo "github.com/graphitehealth/operator-sdk/internal/generate/testdata/go/api/shared"
 )
 
 // +k8s:deepcopy-gen=false
@@ -80,10 +80,10 @@ type OtherDummyStatus struct {
 // Dummy is the Schema for the dummy API
 // +k8s:deepcopy-gen=false
 // +k8s:openapi-gen=false
-//+kubebuilder:subresource:status
-//+kubebuilder:resource:path=dummys,scope=Namespaced
-//+operator-sdk:csv:customresourcedefinitions:displayName="Dummy App"
-//+operator-sdk:csv:customresourcedefinitions:resources={{Deployment,v1,"dummy-deployment"},{ReplicaSet,v1beta2,"dummy-replicaset"},{Pod,v1,"dummy-pod"}}
+// +kubebuilder:subresource:status
+// +kubebuilder:resource:path=dummys,scope=Namespaced
+// +operator-sdk:csv:customresourcedefinitions:displayName="Dummy App"
+// +operator-sdk:csv:customresourcedefinitions:resources={{Deployment,v1,"dummy-deployment"},{ReplicaSet,v1beta2,"dummy-replicaset"},{Pod,v1,"dummy-pod"}}
 type Dummy struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
@@ -95,8 +95,8 @@ type Dummy struct {
 // OtherDummy is the Schema for the other dummy API
 // +k8s:deepcopy-gen=false
 // +k8s:openapi-gen=false
-//+operator-sdk:csv:customresourcedefinitions:displayName="Other Dummy App"
-//+operator-sdk:csv:customresourcedefinitions:resources={{Service,v1,"other-dummy-service"},{Pod,v1,"other-dummy-pod"}}
+// +operator-sdk:csv:customresourcedefinitions:displayName="Other Dummy App"
+// +operator-sdk:csv:customresourcedefinitions:resources={{Service,v1,"other-dummy-service"},{Pod,v1,"other-dummy-pod"}}
 type OtherDummy struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`

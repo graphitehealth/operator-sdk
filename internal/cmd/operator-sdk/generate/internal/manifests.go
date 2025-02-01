@@ -18,7 +18,7 @@ import (
 	"github.com/operator-framework/operator-registry/pkg/lib/bundle"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
 )
 
 // GetManifestObjects returns all objects to be written to a manifests directory from collector.Manifests.
