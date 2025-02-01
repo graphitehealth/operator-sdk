@@ -20,8 +20,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/graphitehealth/operator-sdk/internal/olm/client"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
+	"k8s.io/client-go/rest"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 )
 
@@ -68,6 +70,26 @@ func (m *Manager) initialize() (err error) {
 	return err
 }
 
+func (m *Manager) initializeWithRestConfig(restConfig *rest.Config) (err error) {
+	m.once.Do(func() {
+		if m.Client == nil {
+			client, cerr := ClientForConfig(restConfig)
+			if cerr != nil {
+				err = fmt.Errorf("failed to create manager client: %v", cerr)
+				return
+			}
+			m.Client = client
+		}
+		if m.Timeout <= 0 {
+			m.Timeout = DefaultTimeout
+		}
+		if m.OLMNamespace == "" {
+			m.OLMNamespace = DefaultOLMNamespace
+		}
+	})
+	return err
+}
+
 func (m *Manager) Install() error {
 	if err := m.initialize(); err != nil {
 		return err
@@ -85,6 +107,18 @@ func (m *Manager) Install() error {
 	fmt.Print("\n")
 	fmt.Println(status)
 	return nil
+}
+
+func (m *Manager) InstallWithRestConfig(restConfig *rest.Config, version string) (*client.Status, error) {
+	if err := m.initializeWithRestConfig(restConfig); err != nil {
+		return nil, err
+	}
+	m.Version = version
+
+	ctx, cancel := context.WithTimeout(context.Background(), m.Timeout)
+	defer cancel()
+
+	return m.Client.InstallVersion(ctx, m.OLMNamespace, m.Version)
 }
 
 func (m *Manager) Uninstall() error {
@@ -112,6 +146,35 @@ func (m *Manager) Uninstall() error {
 	}
 
 	log.Infof("Successfully uninstalled OLM version %q", m.Version)
+	return nil
+}
+
+func (m *Manager) UninstallWithRestConfig(restConfig *rest.Config, version string) error {
+	if err := m.initializeWithRestConfig(restConfig); err != nil {
+		return err
+	}
+	m.Version = version
+
+	ctx, cancel := context.WithTimeout(context.Background(), m.Timeout)
+	defer cancel()
+
+	if installedVersion, err := m.Client.GetInstalledVersion(ctx, m.OLMNamespace); err != nil {
+		if m.Version == "" {
+			return fmt.Errorf("error getting installed OLM version (set --version to override the default version): %v", err)
+		}
+	} else if m.Version != "" {
+		if installedVersion != m.Version {
+			return fmt.Errorf("mismatched installed version %q vs. supplied version %q", installedVersion, m.Version)
+		}
+	} else {
+		m.Version = installedVersion
+	}
+
+	if err := m.Client.UninstallVersion(ctx, m.Version); err != nil {
+		return err
+	}
+
+	// log.Infof("Successfully uninstalled OLM version %q", m.Version)
 	return nil
 }
 
@@ -144,6 +207,17 @@ func (m *Manager) Status() error {
 	fmt.Print("\n")
 	fmt.Println(status)
 	return nil
+}
+
+func (m *Manager) GetInstalledVersionWithRestConfig(restConfig *rest.Config) (string, error) {
+	if err := m.initializeWithRestConfig(restConfig); err != nil {
+		return "", err
+	}
+
+	ctx, cancel := context.WithTimeout(context.Background(), m.Timeout)
+	defer cancel()
+
+	return m.Client.GetInstalledVersion(ctx, m.OLMNamespace)
 }
 
 func (m *Manager) AddToFlagSet(fs *pflag.FlagSet) {
