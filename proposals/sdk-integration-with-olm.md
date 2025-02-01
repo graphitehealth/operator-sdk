@@ -69,7 +69,7 @@ bogged down.
 
 ### Implementation Details/Notes/Constraints
 
-Initial PR: https://github.com/operator-framework/operator-sdk/pull/1912
+Initial PR: https://github.com/graphitehealth/operator-sdk/pull/1912
 
 #### Use of operator-registry
 

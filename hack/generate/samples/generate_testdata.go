@@ -19,12 +19,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/operator-framework/operator-sdk/hack/generate/samples/internal/helm"
+	"github.com/graphitehealth/operator-sdk/hack/generate/samples/internal/helm"
 
 	log "github.com/sirupsen/logrus"
 
-	golang "github.com/operator-framework/operator-sdk/hack/generate/samples/internal/go"
-	"github.com/operator-framework/operator-sdk/internal/testutils"
+	golang "github.com/graphitehealth/operator-sdk/hack/generate/samples/internal/go"
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
 )
 
 func main() {

@@ -539,11 +539,11 @@ Next, check out the following:
 [kubebuilder_entrypoint_doc]: https://book.kubebuilder.io/cronjob-tutorial/empty-main.html
 [kubebuilder_layout_doc]:https://book.kubebuilder.io/cronjob-tutorial/basic-project.html
 [kubernetes-extend-api]: https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/
-[legacy-quickstart-doc]:https://github.com/operator-framework/operator-sdk/blob/v0.19.x/website/content/en/docs/golang/legacy/quickstart.md
-[legacy_CLI]:https://github.com/operator-framework/operator-sdk/tree/v0.19.x/website/content/en/docs/cli
+[legacy-quickstart-doc]:https://github.com/graphitehealth/operator-sdk/blob/v0.19.x/website/content/en/docs/golang/legacy/quickstart.md
+[legacy_CLI]:https://github.com/graphitehealth/operator-sdk/tree/v0.19.x/website/content/en/docs/cli
 [manager_go_doc]: https://pkg.go.dev/sigs.k8s.io/controller-runtime/pkg/manager#Manager
 [markers]: https://book.kubebuilder.io/reference/markers.html
-[memcached_controller]: https://github.com/operator-framework/operator-sdk/blob/latest/testdata/go/v4/memcached-operator/internal/controller/memcached_controller.go
+[memcached_controller]: https://github.com/graphitehealth/operator-sdk/blob/latest/testdata/go/v4/memcached-operator/internal/controller/memcached_controller.go
 [migration-guide]:/docs/building-operators/golang/migration
 [multigroup-kubebuilder-doc]: https://book.kubebuilder.io/migration/multi-group.html
 [olm-integration]: /docs/olm-integration

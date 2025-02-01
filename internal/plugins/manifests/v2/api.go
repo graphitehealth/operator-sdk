@@ -23,8 +23,8 @@ import (
 	"sigs.k8s.io/kubebuilder/v4/pkg/model/resource"
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugin"
 
-	"github.com/operator-framework/operator-sdk/internal/plugins/manifests/v2/templates/config/samples"
-	"github.com/operator-framework/operator-sdk/internal/plugins/util"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/manifests/v2/templates/config/samples"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/util"
 )
 
 var _ plugin.CreateAPISubcommand = &createAPISubcommand{}

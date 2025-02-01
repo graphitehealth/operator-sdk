@@ -28,7 +28,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
 )
 
 type TestRunner interface {

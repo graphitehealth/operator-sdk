@@ -31,7 +31,7 @@ import (
 	"sigs.k8s.io/controller-tools/pkg/loader"
 	"sigs.k8s.io/controller-tools/pkg/markers"
 
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 // MakeFullGroupFromName returns everything but the first element of a CRD name,

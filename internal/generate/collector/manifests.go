@@ -34,7 +34,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/yaml"
 
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 // Manifests holds a collector of all manifests relevant to CSV updates.

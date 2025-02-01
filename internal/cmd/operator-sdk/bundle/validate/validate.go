@@ -31,8 +31,8 @@ import (
 	"github.com/spf13/pflag"
 	"k8s.io/apimachinery/pkg/labels"
 
-	internalregistry "github.com/operator-framework/operator-sdk/internal/registry"
-	"github.com/operator-framework/operator-sdk/internal/validate"
+	internalregistry "github.com/graphitehealth/operator-sdk/internal/registry"
+	"github.com/graphitehealth/operator-sdk/internal/validate"
 )
 
 type bundleValidateCmd struct {

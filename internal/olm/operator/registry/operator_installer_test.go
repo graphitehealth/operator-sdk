@@ -29,7 +29,7 @@ import (
 	crclient "sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
 )
 
 const name = "fakeName"

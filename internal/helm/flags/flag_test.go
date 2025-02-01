@@ -20,7 +20,7 @@ import (
 	"github.com/spf13/pflag"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/operator-framework/operator-sdk/internal/helm/flags"
+	"github.com/graphitehealth/operator-sdk/internal/helm/flags"
 )
 
 var _ = Describe("Flags", func() {

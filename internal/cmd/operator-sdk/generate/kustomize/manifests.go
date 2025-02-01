@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	manifestsv2 "github.com/operator-framework/operator-sdk/internal/plugins/manifests/v2"
+	manifestsv2 "github.com/graphitehealth/operator-sdk/internal/plugins/manifests/v2"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
@@ -33,11 +33,11 @@ import (
 	"sigs.k8s.io/kubebuilder/v4/pkg/machinery"
 	"sigs.k8s.io/yaml"
 
-	genutil "github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/generate/internal"
-	"github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion/bases"
-	templatemanifests "github.com/operator-framework/operator-sdk/internal/plugins/manifests/v2/templates/config/manifests"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	genutil "github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/generate/internal"
+	"github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion/bases"
+	templatemanifests "github.com/graphitehealth/operator-sdk/internal/plugins/manifests/v2/templates/config/manifests"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 const longHelp = `

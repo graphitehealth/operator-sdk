@@ -74,7 +74,7 @@ TIMESPAN=${TIMESPAN:-$DEFAULT_TIMESPAN}
 
 # Clone the operator-sdk repo into a temp dir with cleanup.
 tmp=$(mktemp -d --tmpdir freshen-images-tmp.XXXXXX)
-git clone https://github.com/operator-framework/operator-sdk.git $tmp
+git clone https://github.com/graphitehealth/operator-sdk.git $tmp
 trap "rm -rf $tmp" EXIT
 pushd $tmp
 

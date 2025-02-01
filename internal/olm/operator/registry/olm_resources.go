@@ -20,8 +20,8 @@ import (
 	v1 "github.com/operator-framework/api/pkg/operators/v1"
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
 
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 func getSubscriptionName(csvName string) string {

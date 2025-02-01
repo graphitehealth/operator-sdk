@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"sigs.k8s.io/controller-runtime/pkg/client"

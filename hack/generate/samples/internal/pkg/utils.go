@@ -22,7 +22,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/operator-framework/operator-sdk/internal/annotations/metrics"
+	"github.com/graphitehealth/operator-sdk/internal/annotations/metrics"
 )
 
 // CheckError will exit with exit code 1 when err is not nil.

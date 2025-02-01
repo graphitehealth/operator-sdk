@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	operatorsv1alpha1 "github.com/operator-framework/api/pkg/operators/v1alpha1"
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
 	log "github.com/sirupsen/logrus"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/utils/set"

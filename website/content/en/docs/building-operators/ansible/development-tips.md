@@ -518,6 +518,6 @@ operator. The `ansible_operator_meta` fields can be accessed via dot notation in
 [time_pkg]:https://golang.org/pkg/time/
 [time_parse_duration]:https://golang.org/pkg/time/#ParseDuration
 [watches]:/docs/building-operators/ansible/reference/watches
-[py-deps]:https://github.com/operator-framework/operator-sdk/blob/c6796de/images/ansible-operator/Pipfile.lock
+[py-deps]:https://github.com/graphitehealth/operator-sdk/blob/c6796de/images/ansible-operator/Pipfile.lock
 [pipenv]:https://pypi.org/project/pipenv/
-[os-pkgs]:https://github.com/operator-framework/operator-sdk/blob/c6796de/images/ansible-operator/base.Dockerfile#L29
+[os-pkgs]:https://github.com/graphitehealth/operator-sdk/blob/c6796de/images/ansible-operator/base.Dockerfile#L29

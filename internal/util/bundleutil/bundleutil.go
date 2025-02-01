@@ -27,8 +27,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	"github.com/operator-framework/operator-sdk/internal/flags"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/graphitehealth/operator-sdk/internal/flags"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 var (

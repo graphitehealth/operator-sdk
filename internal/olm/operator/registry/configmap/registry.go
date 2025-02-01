@@ -28,8 +28,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	olmclient "github.com/operator-framework/operator-sdk/internal/olm/client"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	olmclient "github.com/graphitehealth/operator-sdk/internal/olm/client"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 const (

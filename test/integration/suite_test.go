@@ -27,8 +27,8 @@ import (
 	"github.com/operator-framework/operator-registry/pkg/lib/bundle"
 	"sigs.k8s.io/yaml"
 
-	"github.com/operator-framework/operator-sdk/internal/testutils"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 // TestIntegration tests operator-sdk projects with OLM.

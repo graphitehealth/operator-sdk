@@ -10,7 +10,7 @@ creation-date: 2019-12-18
 last-updated: 2019-12-18
 status: implementable
 see-also:
-  - https://github.com/operator-framework/operator-sdk/pull/2048
+  - https://github.com/graphitehealth/operator-sdk/pull/2048
 replaces: []
 superseded-by: []
 ---

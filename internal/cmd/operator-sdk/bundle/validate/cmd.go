@@ -23,8 +23,8 @@ import (
 	"github.com/spf13/viper"
 	"k8s.io/apimachinery/pkg/labels"
 
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/bundle/validate/internal"
-	"github.com/operator-framework/operator-sdk/internal/flags"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/bundle/validate/internal"
+	"github.com/graphitehealth/operator-sdk/internal/flags"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"regexp"
 	"strings"
 
-	sdkversion "github.com/operator-framework/operator-sdk/internal/version"
+	sdkversion "github.com/graphitehealth/operator-sdk/internal/version"
 )
 
 // Static bundle annotation values.

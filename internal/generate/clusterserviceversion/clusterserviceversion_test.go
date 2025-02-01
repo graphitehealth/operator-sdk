@@ -31,10 +31,10 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	"sigs.k8s.io/yaml"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion/bases"
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
-	genutil "github.com/operator-framework/operator-sdk/internal/generate/internal"
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion/bases"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
+	genutil "github.com/graphitehealth/operator-sdk/internal/generate/internal"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 var (

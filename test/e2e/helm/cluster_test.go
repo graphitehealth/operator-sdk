@@ -25,8 +25,8 @@ import (
 	. "github.com/onsi/gomega"
 	kbutil "sigs.k8s.io/kubebuilder/v4/pkg/plugin/util"
 
-	"github.com/operator-framework/operator-sdk/internal/testutils"
-	"github.com/operator-framework/operator-sdk/test/common"
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
+	"github.com/graphitehealth/operator-sdk/test/common"
 )
 
 var _ = Describe("Running Helm projects", func() {

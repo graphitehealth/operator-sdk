@@ -15,7 +15,7 @@
 package olm
 
 import (
-	"github.com/operator-framework/operator-sdk/internal/olm/installer"
+	"github.com/graphitehealth/operator-sdk/internal/olm/installer"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

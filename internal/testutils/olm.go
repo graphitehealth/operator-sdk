@@ -21,7 +21,7 @@ import (
 
 	_ "sigs.k8s.io/kubebuilder/v4/pkg/config/v3" // Register config/v3 for `config.New`
 
-	"github.com/operator-framework/operator-sdk/internal/util/projutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/projutil"
 )
 
 const (

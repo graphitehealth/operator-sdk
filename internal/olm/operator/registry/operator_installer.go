@@ -29,8 +29,8 @@ import (
 	"k8s.io/utils/set"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	olmclient "github.com/operator-framework/operator-sdk/internal/olm/client"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
+	olmclient "github.com/graphitehealth/operator-sdk/internal/olm/client"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
 
 	corev1 "k8s.io/api/core/v1"
 )

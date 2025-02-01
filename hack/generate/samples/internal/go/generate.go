@@ -17,7 +17,7 @@ package golang
 import (
 	"path/filepath"
 
-	withcustomization "github.com/operator-framework/operator-sdk/hack/generate/samples/internal/go/memcached-with-customization"
+	withcustomization "github.com/graphitehealth/operator-sdk/hack/generate/samples/internal/go/memcached-with-customization"
 )
 
 func GenerateMemcachedSamples(binaryPath, rootPath string) {

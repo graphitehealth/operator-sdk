@@ -23,8 +23,8 @@ import (
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
 	"github.com/spf13/pflag"
 
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator/registry"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator/registry"
 )
 
 type Install struct {

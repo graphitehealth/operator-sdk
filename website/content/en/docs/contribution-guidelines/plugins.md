@@ -69,8 +69,8 @@ If you are looking to develop similar solutions to allow users for example to cr
 [kb-project]: https://master.book.kubebuilder.io/reference/project-config.html
 [sdk-cli-run-bundle]: /docs/cli/operator-sdk_run
 [project-layout]: /docs/overview/project-layout
-[plugin-manifest]: https://github.com/operator-framework/operator-sdk/tree/master/internal/plugins/manifests/v2
-[plugin-scorecard]: https://github.com/operator-framework/operator-sdk/tree/master/internal/plugins/scorecard/v2
+[plugin-manifest]: https://github.com/graphitehealth/operator-sdk/tree/master/internal/plugins/manifests/v2
+[plugin-scorecard]: https://github.com/graphitehealth/operator-sdk/tree/master/internal/plugins/scorecard/v2
 [kubebuilder-declarative-pattern]: https://github.com/kubernetes-sigs/kubebuilder-declarative-pattern
 [kubebuilder-declarative-pattern-example]: https://github.com/kubernetes-sigs/kubebuilder/blob/v3.13.0/testdata/project-v3/controllers/firstmate_controller.go
 [default-scaffold]: https://github.com/kubernetes-sigs/kubebuilder/blob/v3.13.0/testdata/project-v3/controllers/admiral_controller.go

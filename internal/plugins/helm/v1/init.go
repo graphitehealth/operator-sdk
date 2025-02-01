@@ -25,8 +25,8 @@ import (
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugin"
 	"sigs.k8s.io/kubebuilder/v4/pkg/plugin/util"
 
-	"github.com/operator-framework/operator-sdk/internal/plugins/helm/v1/scaffolds"
-	sdkpluginutil "github.com/operator-framework/operator-sdk/internal/plugins/util"
+	"github.com/graphitehealth/operator-sdk/internal/plugins/helm/v1/scaffolds"
+	sdkpluginutil "github.com/graphitehealth/operator-sdk/internal/plugins/util"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/operator-framework/operator-sdk/internal/generate/packagemanifest"
-	"github.com/operator-framework/operator-sdk/internal/generate/packagemanifest/packagemanifestfakes"
+	"github.com/graphitehealth/operator-sdk/internal/generate/packagemanifest"
+	"github.com/graphitehealth/operator-sdk/internal/generate/packagemanifest/packagemanifestfakes"
 )
 
 var _ = Describe("Running a generate packagemanifests command", func() {

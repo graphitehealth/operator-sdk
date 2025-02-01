@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"runtime"
 
-	ver "github.com/operator-framework/operator-sdk/internal/version"
+	ver "github.com/graphitehealth/operator-sdk/internal/version"
 )
 
 func makeVersionString() string {

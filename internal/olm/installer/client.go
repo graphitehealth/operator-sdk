@@ -30,7 +30,7 @@ import (
 	"github.com/blang/semver/v4"
 	olmapiv1 "github.com/operator-framework/api/pkg/operators/v1"
 	olmapiv1alpha1 "github.com/operator-framework/api/pkg/operators/v1alpha1"
-	olmmanifests "github.com/operator-framework/operator-sdk/internal/bindata/olm"
+	olmmanifests "github.com/graphitehealth/operator-sdk/internal/bindata/olm"
 	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime/schema"
@@ -40,7 +40,7 @@ import (
 	"k8s.io/client-go/rest"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	olmresourceclient "github.com/operator-framework/operator-sdk/internal/olm/client"
+	olmresourceclient "github.com/graphitehealth/operator-sdk/internal/olm/client"
 )
 
 const (

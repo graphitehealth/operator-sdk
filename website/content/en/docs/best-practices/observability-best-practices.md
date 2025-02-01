@@ -27,9 +27,9 @@ Additional components would be `Dashboards`, `Logs` and `Traces`, which are not 
 
 ### Operators Observability General Guidelines
 **Important:** It is highly recommended to separate your monitoring code from your core operator code.  
-We recommend to create a dedicated `/monitoring` subfolder that will include all the code of the [Operator Observability Recommended Components](#operator-observability-recommended-components), that are outlined above. For example, in the [memcached-operator](https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/monitoring).
+We recommend to create a dedicated `/monitoring` subfolder that will include all the code of the [Operator Observability Recommended Components](#operator-observability-recommended-components), that are outlined above. For example, in the [memcached-operator](https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/monitoring).
 
-In your core operator code only call the functions that will update the metrics value from your desired location. For example, in the [memcached-operator](https://github.com/operator-framework/operator-sdk/blob/367bd3597c30607099aa73637f5286f7120b847a/testdata/go/v3/monitoring/memcached-operator/controllers/memcached_controller.go#L242).
+In your core operator code only call the functions that will update the metrics value from your desired location. For example, in the [memcached-operator](https://github.com/graphitehealth/operator-sdk/blob/367bd3597c30607099aa73637f5286f7120b847a/testdata/go/v3/monitoring/memcached-operator/controllers/memcached_controller.go#L242).
 
 All operators start small. This separation will help you, as a developer, with easier maintenance of both your operator core code and the monitoring code and for other stakeholders to understand your monitoring code better.
 
@@ -43,7 +43,7 @@ Your operator users should get the same experience when searching for a metric a
 2. The metrics search list, in the Prometheus, Grafana UI and even in the /metrics end point, is sorted in alphabetical order.
 When searching for a metric, it should be easy to identify metrics that are related to a specific operator.
 That is why we recommend that your operator metrics name will follow this format:
-`operator name` prefix + the `sub-operator name` or `entity` + `metric name` based on the [Prometheus naming conventions](https://prometheus.io/docs/practices/naming/). For example, in the [memcached-operator](https://github.com/operator-framework/operator-sdk/blob/0d2fa86f0d3cc92c4672cb9e1d246efaefcf7ced/testdata/go/v4-alpha/monitoring/memcached-operator/monitoring/metrics.go#L14).
+`operator name` prefix + the `sub-operator name` or `entity` + `metric name` based on the [Prometheus naming conventions](https://prometheus.io/docs/practices/naming/). For example, in the [memcached-operator](https://github.com/graphitehealth/operator-sdk/blob/0d2fa86f0d3cc92c4672cb9e1d246efaefcf7ced/testdata/go/v4-alpha/monitoring/memcached-operator/monitoring/metrics.go#L14).
 
 **Note:** In [Prometheus Node Exporter](https://github.com/prometheus/node_exporter) metrics are separated like this:
 - node_network_**receive**_packets_total

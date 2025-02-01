@@ -28,7 +28,7 @@ implementation allows for the possibility of brief periods during which
 multiple leaders are active.
 
 Requirements have been [discussed on
-GitHub](https://github.com/operator-framework/operator-sdk/issues/136).
+GitHub](https://github.com/graphitehealth/operator-sdk/issues/136).
 
 This proposal is to add leader election to the SDK that follows a "leader for
 life" model, which does not allow for multiple concurrent leaders.

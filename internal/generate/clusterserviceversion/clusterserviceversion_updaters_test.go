@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
 )
 
 var _ = Describe("apply functions", func() {

@@ -31,11 +31,11 @@ import (
 	"github.com/spf13/viper"
 	"k8s.io/apimachinery/pkg/labels"
 
-	scorecardannotations "github.com/operator-framework/operator-sdk/internal/annotations/scorecard"
-	xunit "github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/scorecard/xunit"
-	"github.com/operator-framework/operator-sdk/internal/flags"
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
-	"github.com/operator-framework/operator-sdk/internal/scorecard"
+	scorecardannotations "github.com/graphitehealth/operator-sdk/internal/annotations/scorecard"
+	xunit "github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/scorecard/xunit"
+	"github.com/graphitehealth/operator-sdk/internal/flags"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
+	"github.com/graphitehealth/operator-sdk/internal/scorecard"
 )
 
 type scorecardCmd struct {

@@ -26,9 +26,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/operator-framework/operator-sdk/internal/annotations/metrics"
-	"github.com/operator-framework/operator-sdk/internal/util/bundleutil"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/annotations/metrics"
+	"github.com/graphitehealth/operator-sdk/internal/util/bundleutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 const (

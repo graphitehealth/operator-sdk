@@ -32,8 +32,8 @@ import (
 	pointer "k8s.io/utils/ptr"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 const (

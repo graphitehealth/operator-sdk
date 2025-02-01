@@ -19,9 +19,9 @@ import (
 
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
 	registrybundle "github.com/operator-framework/operator-registry/pkg/lib/bundle"
-	fbcutil "github.com/operator-framework/operator-sdk/internal/olm/fbcutil"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator/registry"
+	fbcutil "github.com/graphitehealth/operator-sdk/internal/olm/fbcutil"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator/registry"
 	"github.com/spf13/pflag"
 )
 

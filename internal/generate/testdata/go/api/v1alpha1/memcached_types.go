@@ -17,7 +17,7 @@ package v1alpha1
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/testdata/go/api/shared"
+	"github.com/graphitehealth/operator-sdk/internal/generate/testdata/go/api/shared"
 )
 
 // MemcachedSpec defines the desired state of Memcached
@@ -74,10 +74,10 @@ type MemcachedStatus struct {
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // Memcached is the Schema for the memcacheds API
-//+kubebuilder:subresource:status
-//+kubebuilder:resource:path=memcacheds,scope=Namespaced
-//+kubebuilder:storageversion
-//+operator-sdk:csv:customresourcedefinitions:displayName="Memcached App Display Name"
+// +kubebuilder:subresource:status
+// +kubebuilder:resource:path=memcacheds,scope=Namespaced
+// +kubebuilder:storageversion
+// +operator-sdk:csv:customresourcedefinitions:displayName="Memcached App Display Name"
 type Memcached struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`

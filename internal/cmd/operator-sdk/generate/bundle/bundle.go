@@ -27,14 +27,14 @@ import (
 	"github.com/operator-framework/operator-manifest-tools/pkg/imageresolver"
 	"github.com/operator-framework/operator-manifest-tools/pkg/pullspec"
 	"github.com/operator-framework/operator-registry/pkg/lib/bundle"
-	metricsannotations "github.com/operator-framework/operator-sdk/internal/annotations/metrics"
-	genutil "github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/generate/internal"
-	gencsv "github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion"
-	"github.com/operator-framework/operator-sdk/internal/generate/clusterserviceversion/bases"
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
-	"github.com/operator-framework/operator-sdk/internal/registry"
-	"github.com/operator-framework/operator-sdk/internal/scorecard"
-	"github.com/operator-framework/operator-sdk/internal/util/bundleutil"
+	metricsannotations "github.com/graphitehealth/operator-sdk/internal/annotations/metrics"
+	genutil "github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/generate/internal"
+	gencsv "github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion"
+	"github.com/graphitehealth/operator-sdk/internal/generate/clusterserviceversion/bases"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
+	"github.com/graphitehealth/operator-sdk/internal/registry"
+	"github.com/graphitehealth/operator-sdk/internal/scorecard"
+	"github.com/graphitehealth/operator-sdk/internal/util/bundleutil"
 )
 
 const (

@@ -25,10 +25,10 @@ import (
 
 	kbutil "sigs.k8s.io/kubebuilder/v4/pkg/plugin/util"
 
+	"github.com/graphitehealth/operator-sdk/internal/testutils"
+	"github.com/graphitehealth/operator-sdk/test/common"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/operator-framework/operator-sdk/internal/testutils"
-	"github.com/operator-framework/operator-sdk/test/common"
 )
 
 var _ = Describe("operator-sdk", func() {

@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator/registry/index"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	"github.com/operator-framework/api/pkg/operators/v1alpha1"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator/registry/index"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

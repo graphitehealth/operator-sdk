@@ -23,9 +23,9 @@ import (
 	scapiv1alpha3 "github.com/operator-framework/api/pkg/apis/scorecard/v1alpha3"
 	apimanifests "github.com/operator-framework/api/pkg/manifests"
 
-	registryutil "github.com/operator-framework/operator-sdk/internal/registry"
-	"github.com/operator-framework/operator-sdk/internal/scorecard"
-	"github.com/operator-framework/operator-sdk/internal/scorecard/tests"
+	registryutil "github.com/graphitehealth/operator-sdk/internal/registry"
+	"github.com/graphitehealth/operator-sdk/internal/scorecard"
+	"github.com/graphitehealth/operator-sdk/internal/scorecard/tests"
 )
 
 // this is the scorecard test binary that ultimately executes the

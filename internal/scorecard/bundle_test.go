@@ -27,7 +27,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/operator-framework/operator-sdk/internal/registry"
+	"github.com/graphitehealth/operator-sdk/internal/registry"
 )
 
 var _ = Describe("Tarring a bundle", func() {

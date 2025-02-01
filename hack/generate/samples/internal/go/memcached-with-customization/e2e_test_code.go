@@ -7,7 +7,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	kbutil "sigs.k8s.io/kubebuilder/v4/pkg/plugin/util"
 
-	"github.com/operator-framework/operator-sdk/hack/generate/samples/internal/pkg"
+	"github.com/graphitehealth/operator-sdk/hack/generate/samples/internal/pkg"
 )
 
 // implementingE2ETests will add e2e test for the sample

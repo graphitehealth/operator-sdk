@@ -33,8 +33,8 @@ import (
 	apiextv1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/operator-framework/operator-sdk/internal/generate/collector"
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/generate/collector"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 // ApplyTo applies relevant manifests in c to csv, sorts the applied updates,

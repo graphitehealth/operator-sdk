@@ -17,10 +17,10 @@ package run
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/run/bundle"
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/run/bundleupgrade"
-	"github.com/operator-framework/operator-sdk/internal/cmd/operator-sdk/run/packagemanifests"
-	"github.com/operator-framework/operator-sdk/internal/olm/operator"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/run/bundle"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/run/bundleupgrade"
+	"github.com/graphitehealth/operator-sdk/internal/cmd/operator-sdk/run/packagemanifests"
+	"github.com/graphitehealth/operator-sdk/internal/olm/operator"
 )
 
 func NewCmd() *cobra.Command {

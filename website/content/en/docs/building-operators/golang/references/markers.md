@@ -155,7 +155,7 @@ Markers supported by `operator-sdk` prior to v1.0.0 are deprecated.
 You can migrate to the new marker system by running the following script:
 
 ```console
-$ curl -sSLo migrate-markers.sh https://raw.githubusercontent.com/operator-framework/operator-sdk/master/hack/generate/migrate-markers.sh
+$ curl -sSLo migrate-markers.sh https://raw.githubusercontent.com/graphitehealth/operator-sdk/master/hack/generate/migrate-markers.sh
 $ chmod +x ./migrate-markers.sh
 $ ./migrate-markers.sh path/to/*_types.go
 ```

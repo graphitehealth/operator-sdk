@@ -3,7 +3,7 @@ env:
   - CGO_ENABLED=0
   - GO111MODULE=on
   - GOPROXY=https://proxy.golang.org|direct
-  - REPO=github.com/operator-framework/operator-sdk
+  - REPO=github.com/graphitehealth/operator-sdk
 
 # Hooks to run before any build is run.
 before:

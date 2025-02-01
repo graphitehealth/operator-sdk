@@ -24,7 +24,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	kbutil "sigs.k8s.io/kubebuilder/v4/pkg/plugin/util"
 
-	"github.com/operator-framework/operator-sdk/hack/generate/samples/internal/pkg"
+	"github.com/graphitehealth/operator-sdk/hack/generate/samples/internal/pkg"
 )
 
 // monitoringString is appended to logs and error messages to signify the inclusion of monitoring
@@ -873,7 +873,7 @@ const (
 	deploymentSizeUndesiredAlert = "MemcachedDeploymentSizeUndesired"
 	operatorDownAlert            = "MemcachedOperatorDown"
 	operatorUpTotalRecordingRule = "memcached_operator_up_total"
-	runbookURLBasePath           = "https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/"
+	runbookURLBasePath           = "https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/"
 )
 
 // NewPrometheusRule creates new PrometheusRule(CR) for the operator to have alerts and recording rules
@@ -983,7 +983,7 @@ tests:
               description: "Memcached-sample deployment size was not as desired more than 3 times in the last 5 minutes."
             exp_labels:
               severity: "warning"
-              runbook_url: "https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedDeploymentSizeUndesired.md"
+              runbook_url: "https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedDeploymentSizeUndesired.md"
       - eval_time: 5m
         alertname: MemcachedOperatorDown
         exp_alerts:
@@ -991,7 +991,7 @@ tests:
               description: "No running memcached-operator pods were detected in the last 5 min."
             exp_labels:
               severity: "critical"
-              runbook_url: "https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedOperatorDown.md"
+              runbook_url: "https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedOperatorDown.md"
       # it must not trigger before 15m
       - eval_time: 14m
         alertname: MemcachedDeploymentSizeUndesired
@@ -1007,7 +1007,7 @@ tests:
               description: "Memcached-sample deployment size was not as desired more than 3 times in the last 5 minutes."
             exp_labels:
               severity: "warning"
-              runbook_url: "https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedDeploymentSizeUndesired.md"
+              runbook_url: "https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedDeploymentSizeUndesired.md"
       - eval_time: 15m
         alertname: MemcachedOperatorDown
         exp_alerts:
@@ -1015,7 +1015,7 @@ tests:
               description: "No running memcached-operator pods were detected in the last 5 min."
             exp_labels:
               severity: "critical"
-              runbook_url: "https://github.com/operator-framework/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedOperatorDown.md"
+              runbook_url: "https://github.com/graphitehealth/operator-sdk/tree/master/testdata/go/v4/monitoring/memcached-operator/docs/monitoring/runbooks/MemcachedOperatorDown.md"
 `
 
 const ruleSpecDumperFragment = `

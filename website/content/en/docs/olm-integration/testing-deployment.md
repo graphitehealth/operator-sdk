@@ -167,7 +167,7 @@ Let's look at the anatomy of the `cleanup` configuration model:
 
 
 [olm]:https://github.com/operator-framework/operator-lifecycle-manager/
-[sdk-olm-design]:https://github.com/operator-framework/operator-sdk/blob/master/proposals/sdk-integration-with-olm.md
+[sdk-olm-design]:https://github.com/graphitehealth/operator-sdk/blob/master/proposals/sdk-integration-with-olm.md
 [doc-cli-overview]:/docs/olm-integration/cli-overview
 [bundle-format]:https://github.com/operator-framework/operator-registry/tree/v1.15.3#manifest-format
 [package-manifests]:https://github.com/operator-framework/operator-registry/tree/v1.5.3#manifest-format

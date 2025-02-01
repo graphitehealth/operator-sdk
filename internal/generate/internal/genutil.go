@@ -24,7 +24,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/operator-framework/operator-sdk/internal/util/k8sutil"
+	"github.com/graphitehealth/operator-sdk/internal/util/k8sutil"
 )
 
 // InternalError wraps errors that are development issues and unrelated to user

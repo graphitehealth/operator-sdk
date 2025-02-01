@@ -15,4 +15,4 @@ The changlog fragments document the following information:
 * Migration Guide for Changes
   * These are required for breaking changes, and essential (but not required) for scaffolding-related changes.
 
-[changelog-template]: https://github.com/operator-framework/operator-sdk/blob/master/changelog/fragments/00-template.yaml
+[changelog-template]: https://github.com/graphitehealth/operator-sdk/blob/master/changelog/fragments/00-template.yaml

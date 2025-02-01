@@ -9,7 +9,7 @@ weight: 4
 ### Requirements
 To begin, you should have:
 
-- The latest version of the [operator-sdk](https://github.com/operator-framework/operator-sdk) installed.
+- The latest version of the [operator-sdk](https://github.com/graphitehealth/operator-sdk) installed.
 - Docker installed and running
 - [Molecule](https://github.com/ansible/molecule) >= v3.0
 - [Ansible](https://github.com/ansible/ansible) >= v2.9
